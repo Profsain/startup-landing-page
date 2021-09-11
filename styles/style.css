@@ -68,9 +68,14 @@ form {
   font-weight: 600;
   background-color: rgb(247, 168, 43);
   color: white;
+  border: 2px solid rgb(255, 254, 254);
+  border-radius: 10px;
 }
 #submit:hover {
   background-color: blueviolet;
+}
+.top-margin {
+  margin-top: 32px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -110,6 +115,9 @@ h2 {
 .morebtn {
   background-color: rgb(247, 168, 43) !important;
   color: white !important;
+  border: 2px solid rgb(253, 253, 253) !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
 }
 
 .morebtn:hover {
@@ -125,6 +133,19 @@ h2 {
 
 input {
   padding: 8px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+textarea {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+label {
+  padding: 8px;
+  color: rgb(247, 168, 43);
+  font-weight: 500;
 }
 
 #contact-img {
