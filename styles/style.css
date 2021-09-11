@@ -6,7 +6,7 @@ body {
 .navbar {
   padding-right: 40px;
   background-color: rgb(255, 255, 255);
-  font-size: 1.5rem;
+  font-size: 2vm;
   text-transform: uppercase;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 .section {
-  margin-top: 28px;
+  margin-top: 46px;
   text-align: center;
 }
 
@@ -43,11 +43,92 @@ body {
   color: rgb(247, 168, 43);
 }
 
+#sign-up {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 24px;
+}
+
+form {
+  margin-left: 18px;
+}
+
+#email {
+  padding: 6px;
+  width: 35vw;
+  font-size: 1.5vw;
+}
+
+#submit {
+  padding: 6px;
+  width: 15vw;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: rgb(247, 168, 43);
+  color: white;
+}
+#submit:hover {
+  background-color: blueviolet;
+}
+
+@media only screen and (max-width: 600px) {
+  iframe {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+p {
+  padding: 16px;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: rgb(247, 168, 43) !important;
+}
 #about {
-  height: 100%;
+  padding: 68px;
+  background-color: rgb(247, 244, 244);
+  color: black;
 }
 
 #features {
+  padding-top: 24px;
   background-color: white;
   color: black;
+}
+
+.card-img-top {
+  height: auto;
+  width: 100%;
+}
+
+.morebtn {
+  background-color: rgb(247, 168, 43) !important;
+  color: white !important;
+}
+
+.morebtn:hover {
+  background-color: blueviolet !important;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-size: 24px;
+}
+
+input {
+  padding: 8px;
+}
+
+#contact-img {
+  height: auto;
+  width: 100%;
+  margin-top: 150px;
 }
